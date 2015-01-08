@@ -33,7 +33,7 @@ gem 'simple_form'
 gem 'kaminari'
 
 # RSS/Atom parser
-gem 'feedjira'
+gem 'feedjira', git: 'https://github.com/feedjira/feedjira.git', branch: 'faraday'
 
 # HTTP client
 gem 'rest-client'
